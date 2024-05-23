@@ -1,0 +1,370 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* nav bar with logo and buttons */
+nav {
+    display: none;
+    
+}
+
+
+
+/* head sections with background image */
+.hero {
+ width: 100rem;
+ position: relative;
+    
+   
+}
+
+.hero-text {
+    position: absolute;
+    top: 20vh;
+    left: 20%; /* Adjusted for mobile */
+    font-size: 2.5rem; /* Adjusted for mobile */
+    
+}
+
+
+
+.btn-hero {
+    font-size: 2rem; /* Adjusted for mobile */
+    padding: 1.5rem 3rem; /* Adjusted for mobile */
+    width: auto; /* Adjusted for mobile */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* main sections with image card */
+.main-card {
+    width: 100rem;
+    height: 100vh;
+    background-color: #e7e7e7;
+    position: relative;
+}
+
+.main-card-text1 {
+   display: block;
+}
+
+.main-card-text1 h2 {
+    font-size: 4rem; /* Adjusted for mobile */
+    padding-bottom: 2rem;
+}
+
+.main-card-text1 p {
+    font-size: 2.5rem; /* Adjusted for mobile */
+    line-height: 4rem; /* Adjusted for mobile */
+}
+
+.main-card-img {
+    position: absolute;
+    top: 100vh; /* Adjusted for mobile */
+    width: 100rem;
+    height: 60vh;
+    padding-bottom: 4rem;
+   
+}
+
+.btn-login {
+    font-size: 2rem; /* Adjusted for mobile */
+    padding: 1.5rem 3rem; /* Adjusted for mobile */
+    width: auto; /* Adjusted for mobile */
+    margin-top: 2rem;
+}
+
+/* mid-section with 2 images and text */
+.mid-section {
+    width: 100rem;
+    height: 430vh; /* Adjusted for mobile */
+    background-color: #5d5d60;
+    color: #e7e7e7;
+    position: relative;
+    top: 120vh;
+}
+
+.mid-section h1 {
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 5rem; /* Adjusted for mobile */
+    
+}
+
+.mobile-img{
+    position: absolute;
+    top: 100vh;
+    width: 100rem;
+}
+
+.mobile-text2{
+    position: absolute;
+    top: 240vh;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+.mobile-img2{
+    position: absolute;
+    top: 300vh;
+    left: 0;
+    padding-right: 50rem;
+
+}
+
+.mobile-text p{
+    font-size: 3rem;
+    line-height: 5rem;
+    text-align: center;
+
+}
+
+.mobile-text h2{
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-bottom: 3rem;
+    text-align: center;
+ 
+ }
+
+ .mobile-text2 p{
+    font-size: 4rem;
+    line-height: 7rem;
+
+}
+
+.middle-section{
+    position: relative;
+    top: 120vh;
+    height: 70vh;
+    text-align: center;
+    width: 100rem;
+
+}
+
+
+
+
+
+
+
+.middle-section h1 {
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 5rem; /* Adjusted for mobile */
+}
+
+.payment-card1,
+.payment-card2,
+.payment-card3 {
+    width: 80%;
+    height: 50rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 4rem;
+    margin-top: 10rem;
+    position: absolute;
+}
+
+.payment-card1 {
+    top: 15vh; /* Adjusted for mobile */
+    left: 10%;
+}
+
+.payment-card2 {
+    top: 100vh; /* Adjusted for mobile */
+    left: 10%;
+}
+
+.payment-card3 {
+    top: 185vh; /* Adjusted for mobile */
+    left: 10%;
+}
+
+.payment-card1 img,
+.payment-card2 img,
+.payment-card3 img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    padding-top: 2rem;
+}
+
+.payment-card1 h2,
+.payment-card2 h2,
+.payment-card3 h2 {
+    font-size: 3rem; /* Adjusted for mobile */
+    color: blue;
+}
+
+.payment-card1 p,
+.payment-card2 p,
+.payment-card3 p {
+    font-size: 2.5rem; /* Adjusted for mobile */
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+/* special section with 4 cards and images */
+.special {
+    position: relative;
+    top: 350vh;
+    height: 550vh; /* Adjusted for mobile */
+    background-color: #03294e;
+    color: #e7e7e7;
+    width: 100rem;
+    text-align: center;
+}
+
+.special h1,
+.special h2 {
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 5rem; /* Adjusted for mobile */
+    font-weight: bolder;
+}
+
+
+
+.special-card1 {
+    position: absolute;
+    top: 40vh; 
+    left: 23%;
+   
+}
+
+.special-card2 {
+    position:absolute ;
+    top: 160vh; 
+    left: 23%;
+
+ 
+}
+.special-card3 {
+    position: absolute;
+    top: 280vh; 
+    left: 23%;
+    
+}
+.special-card4 {
+    position: absolute;
+    top: 400vh;
+    left: 23%; 
+    
+}
+
+.bottom-section{
+    position: relative;
+    height: 500vh;
+    top: 350vh;
+   
+
+}
+
+.bottom-section-text{
+    position: absolute;
+    top: 30vh;
+    left: 45%;
+}
+
+
+.bottom-section-text h1{
+    font-size: 12rem;
+    font-weight: bolder;
+    color: rgb(5, 5, 94);
+}
+
+
+.bottom-section-form{
+    position: absolute;
+    top: 100vh;
+    height: 70vh;
+    width: 100rem;
+    left: 0;
+    background-color: #03294e;
+    padding: 1rem;
+    border-radius: 5rem;
+    text-align: center;
+}
+
+
+form input{
+    width: 80%;
+    padding: 1rem;
+    border: 0  #063a4f;
+    border-radius: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #124458;
+    border: none;
+    outline: none;
+}
+
+form button{
+    width: 80%;
+    padding: 2rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+footer{
+    height: 400vh;
+    background-color: rgba(6, 58, 79, .1);
+    width: 100rem;
+
+}
+
+.footer-div1{
+    position: absolute;
+    top: 30vh;
+    left: 23%;
+
+}
+
+
+.footer-div2{
+    position: absolute;
+    top: 150vh;
+    left: 23%;
+}
+
+
+.footer-div3{
+    position: absolute;
+    top: 250vh;
+    left: 23%;
+}
+
+.footer-div h2{
+    font-size: 10rem;
+    font-weight: 500;
+    color: #063a4f;
+}
+
+.footer-div h3{
+    font-size: 5rem;
+    font-weight: 300;
+    color: #063a4f;
+}
